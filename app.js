@@ -12,4 +12,5 @@ function calculateAge() {
   var height = Number(prompt("Enter Your Height in Meters :"));
   var BMI = weight / (height * height);
   alert("Your BMI : " + BMI);
+  alert("Your Age is : " + age + " Years" + "\nYour BMI is : " + BMI);
 }
